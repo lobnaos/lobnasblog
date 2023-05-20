@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Lobna's Blog</title>
+  <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body style=background-color:rgb(230,197,252)>
+
+
+  <div class="container my-5">
+      {% include 'header.html' %}
+    <div class="row mt-5">
+      <div class="col-md-8">
+        <h1 style="color: rgb(255, 0, 217);">About Lobna's Blog</h1>
+        <p style="color: rgb(47, 102, 240);",class="lead">Welcome to my blog! I am a writer who is intrest with rare flower and content creator who loves to share ideas and experiences
+           with the world. My blog covers a wide range of topics about flower but i am looking to make my blog on the fueture to talk about several topics.
+          My goal is to create a space where people can learn, be inspired, and interact with others. I believe that everyone has a unique
+           perspective and something valuable to contribute, and I foster a community where everyone feels welcome and respected.
+          I started this blog because I believe that writing and sharing ideas is an effective way to connect with others and make a positive 
+          impact in the world. I am excited about the topics you will be writing about and believe that by sharing our knowledge and 
+          experiences we can help others learn and grow..
+          If you have any comments, questions or suggestions, feel free to reach out to me. I believe the best conversations happen when
+           everyone has a chance to share their perspective, so I welcome all comments and ideas. Thank you for visiting Lobna's blog! 
+           i hope you enjoy reading the content as much as I enjoyed creating it.</p>
+      </div>
+
+    </div>
+      {% include 'footer.html' %}
+  </div>
+
+  <!-- Bootstrap JS (optional) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

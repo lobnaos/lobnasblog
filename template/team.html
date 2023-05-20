@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our friends</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body style=background-color:rgb(230,197,252)>
+  <div class="container my-5">
+      {% include 'header.html' %}
+    <h1 style="color: rgb(104, 77, 169);" class="text-center" >Our blog's friends</h1>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://i.pinimg.com/originals/6a/11/f9/6a11f929c145c442c5a8097dcb747c33.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 style="color: rgb(255, 0, 217)"class="card-title">yosra osailan</h5>
+            <p style="color: rgba(94, 11, 124, 0.606)", class="card-text">our friend since 2020</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://i.pinimg.com/originals/6c/98/40/6c9840c104bffd1eb3c1e101a870bc9e.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 style="color: rgb(255, 0, 242)",class="card-title">sara alharkan</h5>
+            <p style="color: rgba(94, 11, 124, 0.606)",class="card-text">our friend since 2021</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://i.pinimg.com/originals/51/a8/1e/51a81ea00ccc0e819db304bc4927f9e0.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 style="color: rgb(255, 0, 217)" class="card-title">ayah khalil</h5>
+            <p style="color: rgba(94, 11, 124, 0.606)",class="card-text">our friend since 2022</p>
+          </div>
+        </div>
+      </div>
+    </div>
+      {% include 'footer.html' %}
+  </div>
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
